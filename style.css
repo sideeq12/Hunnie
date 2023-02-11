@@ -155,6 +155,16 @@ body{
   height: 600px;
 }
 
+.home .image1{
+  width: 300px;
+  height: 300px;
+}
+.home .image1 img{
+  object-fit: cover;
+  width : 300px;
+  height: 300px;
+}
+
 footer{
   padding : 30px;
   display: flex;
@@ -283,7 +293,6 @@ footer{
         padding-left: 10px;
     }
     .home .text{
-        /* border: 1px solid red; */
         height: fit-content;
         width: 80vw;
         margin-top: -10vh;
@@ -326,5 +335,13 @@ footer{
     }
     footer form{
       width: 80vw;
+    }
+    .home .image1 img{
+      width: 80vw;
+      height: 250px;
+    }
+    .image1{
+      margin-right: auto;
+      margin-top: 20px;
     }
 }
