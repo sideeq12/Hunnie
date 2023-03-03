@@ -291,6 +291,8 @@ footer{
         height: fit-content;
         padding-top: 0vh;
         padding-left: 10px;
+        justify-content: left;
+        align-items: flex-start;
     }
     .home .text{
         height: fit-content;
@@ -306,16 +308,17 @@ footer{
       gap: 2rem;
       justify-content: left;
       align-items: flex-start;
-      border: 1px solid red;
-    }
-    .home.te .text{
-      border : 2px solid blue;
+      /* border: 1px solid red; */
+      padding-left: 0px;
     }
     .home.te .image{
-      margin-top: -10px;
+      margin-right: auto;
+      margin-left: 10px;
     }
     .home.te .text{
-      border: 1px solid yellow;
+      /* border: 1px solid yellow; */
+      margin-right: auto;
+      margin-left: 20px;
     }
     .home.la{
       height: fit-content;
