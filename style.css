@@ -332,9 +332,12 @@ footer{
     }
     .portfolio .slides{
         flex-direction: column-reverse;
-        width: fit-content;
-        border : 1px solid red;
+        width: 350px;
+        /* border : 1px solid red; */
         margin-left: 20px;
+     }
+     .portfolio .slides img{
+      width: 300px;
      }
     footer {
       flex-direction: column;
