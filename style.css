@@ -306,9 +306,16 @@ footer{
       gap: 2rem;
       justify-content: left;
       align-items: flex-start;
+      border: 1px solid red;
+    }
+    .home.te .text{
+      border : 2px solid blue;
     }
     .home.te .image{
       margin-top: -10px;
+    }
+    .home.te .text{
+      border: 1px solid yellow;
     }
     .home.la{
       height: fit-content;
