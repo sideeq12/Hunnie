@@ -301,6 +301,15 @@ footer{
         width: 80vw;
         height: 60vh;
     }
+    .home.te{
+      flex-direction: column-reverse;
+      gap: 2rem;
+      justify-content: left;
+      align-items: flex-start;
+    }
+    .home.te .image{
+      margin-top: -10px;
+    }
     .home.la{
       height: fit-content;
     }
@@ -346,6 +355,7 @@ footer{
      }
      .portfolio .slides .testside{
       width: 350px;
+      padding-right: 25px;
      }
     footer {
       flex-direction: column;
