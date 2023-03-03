@@ -331,6 +331,7 @@ footer{
     }
     .portfolio .slides{
         flex-direction: column-reverse;
+        width: fit-content;
     }
     footer {
       flex-direction: column;
