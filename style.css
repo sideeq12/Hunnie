@@ -231,7 +231,7 @@ footer form{
     padding: 20px;
 }
 .mission.le{
-    background-color: #e1d1c1;
+    background-color: #70675e;
     padding: 30px;
     color: #fff;
 }
@@ -325,6 +325,9 @@ footer{
         font-size: small;
         text-align: left;
         margin-top: 45px;
+    }
+    .portfolio{
+      padding: 20px;
     }
     .portfolio .slides{
         flex-direction: column-reverse;
