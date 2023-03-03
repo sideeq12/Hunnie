@@ -19,10 +19,19 @@
   }
   
   .nav > .nav-header > .nav-title {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     font-size: 22px;
     color: #fff;
     padding: 10px 10px 10px 10px;
+  }
+  .nav > .nav-header > .nav-title > .logo{
+    height: 30px;
+    width: 30px;
+    background-image: url("https://media.discordapp.net/attachments/734089745096769547/1073731210561466409/bigH.png");
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
   }
   
   .nav > .nav-btn {
