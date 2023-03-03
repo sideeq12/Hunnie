@@ -328,15 +328,19 @@ footer{
     }
     .portfolio{
       padding: 20px;
-      /* display: none; */
+      justify-content: left;
     }
     .portfolio .slides{
         flex-direction: column-reverse;
         width: 350px;
-        /* border : 1px solid red; */
+        justify-content: left;
+        align-items: flex-start;
         margin-left: 20px;
      }
      .portfolio .slides img{
+      width: 300px;
+     }
+     .portfolio .slides .imageRev{
       width: 300px;
      }
     footer {
